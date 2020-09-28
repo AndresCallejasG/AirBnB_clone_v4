@@ -64,7 +64,7 @@ function places (data) {
 
     /* $('.user').last().append(place.user_id); */
 
-    $('.description').html(place.description);
+    $('.description').last().html(place.description);
   }
 }
 
